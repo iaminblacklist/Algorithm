@@ -22,6 +22,10 @@
 [5]:http://latex.codecogs.com/gif.latex?O\left&space;(&space;n&space;\right&space;)
 
 ## 二叉树遍历
+- 先序遍历
+- 中序遍历
+- 后序遍历
+- 层次遍历
 ```
 #include <stdio.h>
 #include <stdlib.h>
