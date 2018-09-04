@@ -17,7 +17,7 @@ node* reverseList(node* H)
         node* tmp = p->next;          //暂存p下一个地址，防止变化指针指向后找不到后续的数
         p->next = newH;               //p->next指向前一个空间
         newH = p;                     //新链表的头移动到p，扩长一步链表
-        p    = tmp;                   //p指向原始链表p指向的下一个空间
+        p = tmp;                   //p指向原始链表p指向的下一个空间
     }
     return newH;
 }
